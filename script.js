@@ -2,7 +2,6 @@ getData();
 setInterval(getData, 5000);
 
 function getData() {
-    console.log('reload');
     $.ajax({
         url: 'https://covid-api.mmediagroup.fr/v1/cases?country=France',
         success: function (result) {
