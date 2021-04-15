@@ -9,6 +9,10 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
+    background-image: url('bg.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 h1 {
