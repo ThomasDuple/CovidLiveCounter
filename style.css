@@ -12,16 +12,31 @@ body {
 }
 
 h1 {
-    font-size: 6em;
-}
-
-td {
+    text-align: center;
     font-size: 4em;
-    padding: 0.25em 0.75em;
+    width: 100%;
+    top: 0;
 }
 
-td:first-of-type {
-    text-align: right;
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+span {
+    font-size: 3em;
+    margin: 0 0.4em;
+    text-align: left;
 }
 
 @keyframes rgb {

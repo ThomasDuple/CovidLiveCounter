@@ -14,6 +14,6 @@ function getData() {
 }
 
 function displayData(data) {
-    $('#cases').text(data.confirmed.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '));
-    $('#death').text(data.deaths.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '));
+    $('#cases').text(data.confirmed);
+    $('#death').text(data.deaths);
 }
