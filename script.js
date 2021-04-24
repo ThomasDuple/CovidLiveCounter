@@ -16,4 +16,5 @@ function getData() {
 function displayData(data) {
     $('#cases').text(data.confirmed);
     $('#death').text(data.deaths);
+    document.title = "Covid French Stats Counter | "+data.deaths+" deaths ! xD"
 }
